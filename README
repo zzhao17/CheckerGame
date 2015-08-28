@@ -5,8 +5,8 @@ The content of this README file:
   + How to run CheckerGame
   + CheckerGame rules
   + Known bugs
-  + Authers
-  + Lisence 
+  + Authors
+  + License 
 
 
 
@@ -19,7 +19,7 @@ The content of this README file:
   img
 
 * How to run CheckerGame:
-  To run this program, simply clone all the files listed to local direcotry, open a java IDE and choose the the local direcotry as 
+  To run this program, simply clone all the files listed to local directory, open a java IDE and choose the local directory as 
   the working space.
 
 * CheckerGame rules:
@@ -31,7 +31,7 @@ The content of this README file:
   Moves diagonally, and captures diagonally. Normal pieces can multi-capture, meaning if performing a capture lands the piece in a position ready to perform another capture, that piece may choose to do perform another capture in the same turn.
 
   >>> Bomb Piece
-  A normal Checkers piece with a twist. Performing a capture with a bomb piece causes an explosion in the destination landing. Explosions kill all pieces adjacent to the landing (pieces within a 3x3 block centered at the bomb's final position), as well as the exploding bomb. Howevever shield pieces will not be killed by a bomb explosion. Bombs do not discriminate; all non-shield pieces in the blast zone, regardless of if they are water or fire, are killed in a bomb explosion.
+  A normal Checkers piece with a twist. Performing a capture with a bomb piece causes an explosion in the destination landing. Explosions kill all pieces adjacent to the landing (pieces within a 3x3 block centered at the bomb's final position), as well as the exploding bomb. However shield pieces will not be killed by a bomb explosion. Bombs do not discriminate; all non-shield pieces in the blast zone, regardless of if they are water or fire, are killed in a bomb explosion.
 
   Chain reaction explosions do not occur. If one bomb destroys another bomb via explosion, a second explosion does not occur. Bomb pieces cannot perform multi-captures, because they explode after the first capture.
 
@@ -44,14 +44,14 @@ The content of this README file:
 * Known bugs:
   Depending on how quickly the players press the mouse, the program might not be able to capture the pressing. To minimize this problem, try pressing mouse as fast as possible or simply just press multiple times until the program grasp the motion. 
 
-* Authers:
+* Authors:
 
   Zhan Zhao: 
   >>> zzhao17@syr.edu
   Provided code for Board.java, Piece.java, ShieldPiece.java and BombPiece.java.
 
   Joseph Moghadam: 
-  >>> jmoghadam (at) berkeley.edu
+  >>> jmoghadam@berkeley.edu
   Shortened/modified version of the original Std.Java. For the original, see: http://introcs.cs.princeton.edu/java/stdlib/StdDrawPlus.java.html.
 
  * License:
